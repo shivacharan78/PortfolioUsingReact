@@ -17,7 +17,7 @@ function Home() {
                 scalable and innovative solutions.
               </p>
               <div className="d-flex gap-3 flex-wrap">
-                <a href="public/shiva.pdf" className="btn btn-light btn-lg" download>
+                <a href="/shiva.pdf" className="btn btn-light btn-lg" download>
                   <i className="fas fa-download me-2"></i>Download Resume
                 </a>
                 <a href="#contact" className="btn btn-outline-light btn-lg">
@@ -33,7 +33,7 @@ function Home() {
                 style={{ width: "300px", height: "300px" }}
               >
                 <img
-                  src="public/photo.png" //your image filename
+                  src="/photo.png" //your image filename
                   alt="Vadla Shiva Charan"
                   className="rounded-circle"
                   style={{
